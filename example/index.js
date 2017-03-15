@@ -4,4 +4,4 @@
 const schema_path =require('./Test.json');
 const Mock = require('../index');
 
-Mock.mock(schema_path);
+console.log(Mock.mock(schema_path));
