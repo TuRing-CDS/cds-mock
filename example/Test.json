@@ -3,7 +3,9 @@
   "properties":{
     "id":{
       "description":"The unique identifier for user",
-      "type":"integer"
+      "type":"integer",
+      "minimum": 16,
+      "maximum": 512
     },
     "userName":{
       "description":"Name of the user",
