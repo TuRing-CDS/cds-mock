@@ -16,7 +16,8 @@
     "nickName":{
       "description":"NickName of the user",
       "type":"string"
-    }
+    },
+    "readonly": { "type": "boolean" }
   },
   "required":["id","userName"]
 }
